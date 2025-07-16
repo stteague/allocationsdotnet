@@ -208,7 +208,7 @@ public int AllocateReadonlyRecordStructs()
     {
         var list = new List<PointClassXL>(Count);
         for (int i = 0; i < Count; i++)
-            list.Add(new PointClassXL(Guid.NewGuid(), Guid.NewGuid(), "A", "B", 1m, 2m,
+            list.Add(new PointClassXL(Guid.Empty, Guid.Empty, "A", "B", 1m, 2m,
                 i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i));
         return list.Count;
     }
@@ -218,7 +218,7 @@ public int AllocateReadonlyRecordStructs()
     {
         var list = new List<PointRecordXL>(Count);
         for (int i = 0; i < Count; i++)
-            list.Add(new PointRecordXL(Guid.NewGuid(), Guid.NewGuid(), "A", "B", 1m, 2m,
+            list.Add(new PointRecordXL(Guid.Empty, Guid.Empty, "A", "B", 1m, 2m,
                 i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i));
         return list.Count;
     }
@@ -228,7 +228,7 @@ public int AllocateReadonlyRecordStructs()
     {
         var list = new List<PointStructXL>(Count);
         for (int i = 0; i < Count; i++)
-            list.Add(new PointStructXL(Guid.NewGuid(), Guid.NewGuid(), "A", "B", 1m, 2m,
+            list.Add(new PointStructXL(Guid.Empty, Guid.Empty, "A", "B", 1m, 2m,
                 i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i));
         return list.Count;
     }
@@ -238,7 +238,7 @@ public int AllocateReadonlyStructXL()
 {
     var list = new List<PointReadonlyStructXL>(Count);
     for (int i = 0; i < Count; i++)
-        list.Add(new PointReadonlyStructXL(Guid.NewGuid(), Guid.NewGuid(), "A", "B", 1m, 2m,
+        list.Add(new PointReadonlyStructXL(Guid.Empty, Guid.Empty, "A", "B", 1m, 2m,
             i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i));
     return list.Count;
 }
@@ -248,7 +248,7 @@ public int AllocateReadonlyStructXL()
     {
         var list = new List<PointRecordStructXL>(Count);
         for (int i = 0; i < Count; i++)
-            list.Add(new PointRecordStructXL(Guid.NewGuid(), Guid.NewGuid(), "A", "B", 1m, 2m,
+            list.Add(new PointRecordStructXL(Guid.Empty, Guid.Empty, "A", "B", 1m, 2m,
                 i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i));
         return list.Count;
     }
@@ -258,7 +258,7 @@ public int AllocateReadonlyRecordStructXL()
 {
     var list = new List<PointReadonlyRecordStructXL>(Count);
     for (int i = 0; i < Count; i++)
-        list.Add(new PointReadonlyRecordStructXL(Guid.NewGuid(), Guid.NewGuid(), "A", "B", 1m, 2m,
+        list.Add(new PointReadonlyRecordStructXL(Guid.Empty, Guid.Empty, "A", "B", 1m, 2m,
             i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i, i));
     return list.Count;
 }
