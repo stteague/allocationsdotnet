@@ -288,9 +288,9 @@ public class AllocationBenchmark
     [Benchmark]
     public int AllocateSealedRecords()
     {
-        var list = new List<PointRecord>(Count);
+        var list = new List<PointSealedRecord>(Count);
         for (int i = 0; i < Count; i++)
-            list.Add(new PointRecord(i, i));
+            list.Add(new PointSealedRecord(i, i));
         return list.Count;
     }
     #endregion
